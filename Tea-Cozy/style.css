@@ -1,0 +1,123 @@
+body {
+    background-color: #000;
+    color: #fff5ee;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    position: relative;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid #fff5ee;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    background-color: #000;
+  }
+
+  .logo img {
+    background-color: #000;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+    color: #fff5ee;
+    margin: 0 10px;
+  }
+
+  main {
+    background: url(./image/img-mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    margin: 4.5rem auto;
+    position: relative;
+    font-size: 22px;
+  }
+
+  main div {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+  }
+
+  main h4 {
+    margin-top: 0;
+  }
+
+  section {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  section h2,
+  section h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  section .cozy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  section .cozy img {
+    height: 200px;
+  }
+
+  section .cozy p {
+    text-align: center;
+  }
+
+  .jumbotron {
+    background: url(./image/img-locations-background.jpeg);
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jumbotron .location {
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbotron .location div {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    margin-right: 40px;
+    width: 300px;
+    font-size: 22px;
+  }
+
+  footer div{
+    text-align: center;
+    margin-bottom: 66px;
+  }
+
+  footer p{
+    margin-left: 20px;
+  }
